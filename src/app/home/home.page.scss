@@ -1,0 +1,6 @@
+/* modify native ion-button */
+.button-default::part(native) {
+  background: var(--ion-color-danger);
+  --riple-color: var(--ion-color-danger);
+  --background-activated: var(--ion-color-danger);
+}

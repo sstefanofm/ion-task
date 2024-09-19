@@ -22,8 +22,9 @@
   <ion-list>
     <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
   </ion-list>
+
   <ion-fab slot="fixed" horizontal="end" vertical="bottom">
-    <ion-fab-button translucent="true">
+    <ion-fab-button class="button-default">
       <ion-icon name="chevron-up-outline"></ion-icon>
     </ion-fab-button>
   </ion-fab>
