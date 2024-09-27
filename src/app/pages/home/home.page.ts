@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { RefresherCustomEvent, IonHeader, IonToolbar, IonTitle, IonContent, IonRefresher, IonRefresherContent, IonList, IonFab, IonIcon, IonFabButton } from '@ionic/angular/standalone';
-import { MessageComponent } from '../message/message.component';
+import { MessageComponent } from '../../components/message/message.component';
 
-import { DataService, Message } from '../services/data.service';
+import { DataService, Message } from '../../services/data.service';
 import { addIcons } from 'ionicons';
 import { chevronUpOutline } from 'ionicons/icons';
 
