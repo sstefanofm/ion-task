@@ -20,9 +20,9 @@ export class HomePage {
     addIcons({ chevronUpOutline })
   }
 
-  refresh(ev: any) {
+  refresh(ev: RefresherCustomEvent) {
     setTimeout(() => {
-      (ev as RefresherCustomEvent).detail.complete();
+      ev.detail.complete();
     }, 3000);
   }
 

@@ -18,9 +18,13 @@ export class MessageComponent {
   private platform = inject(Platform);
   @Input() message?: Message;
   isIos() {
-    return this.platform.is('ios')
+    return this.platform.is('ios');
   }
   constructor() {
     addIcons({ chevronForward });
+  }
+  /* TODO test */
+  reaaad() {
+    this.message!.read = true;
   }
 }
